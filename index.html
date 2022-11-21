@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/array.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post" name="array">
+            <label for="chuc_nang">Chọn chức năng</label> <br>
+            <select name="chuc_nang" id="chuc_nang">
+                <option value="0">--Chọn chức năng--</option>
+                <option value="1">Tạo mảng</option>
+                <option value="2">Thêm phần tử</option>
+                <option value="3">Thay thế phần tử</option>
+                <option value="4">Xóa phần tử</option>
+                <option value="5">Hiển thị danh sách</option>
+            </select> <br>
+
+            <div class="show_txt">
+                <label for="data">Nhập phần tử mảng</label>
+                <input type="text" name="data" id="data">
+                <input type="button" value="Nhập tên" id="nhap_ten">
+            </div>
+
+            <div class="replace">
+                <label for="data">Nhập phần tử mảng</label>
+                <input type="text" name="replace" id="replace">
+                <input type="button" value="Nhập tên" id="nhap_ten">
+            </div>
+
+            <div class="content"></div>
+        </form>
+    </div>
+</body>
+</html>
